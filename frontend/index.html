@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi galería S3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Mi galería en S3</h1>
+    <p>Sube y administra tus imágenes en la nube.</p>
+
+    <section class="upload">
+      <input id="file" type="file"
+        accept="image/jpeg,image/png,image/webp">
+      <button id="uploadBtn">Subir imagen</button>
+      <p id="status"></p>
+    </section>
+
+    <h2>Mis imágenes</h2>
+    <div id="gallery" class="gallery"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
